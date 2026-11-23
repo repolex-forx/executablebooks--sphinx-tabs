@@ -142,6 +142,124 @@
       ],
       "ast": [
         "aggregate/ast/4ee56c638af1f28b8cd20da253bfc34333ea232c/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/4ee56c638af1f28b8cd20da253bfc34333ea232c.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "lib.es5.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "lib.es2015.iterable.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "lib.dom.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "builtins",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "pathlib._local",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "base64",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "pygments",
+          "ecosystem": "PYPI",
+          "version": "2.21.0",
+          "githubOrg": "pygments",
+          "githubRepo": "pygments",
+          "githubCommit": "a43b45dcf081b6010c6ab4428f149f7f6d2499c4",
+          "githubTag": "2.21.0",
+          "githubUrl": "https://github.com/pygments/pygments",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/pygments/lexers/__init__.py"
+        },
+        {
+          "packageName": "posixpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "ntpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "typing",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        },
+        {
+          "packageName": "re",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "pathlib",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "functools",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "os",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        }
       ]
     }
   ],
